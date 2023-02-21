@@ -8,25 +8,25 @@ using std::string;
 
 int main() 
 {
-	string one;
-	string two;
+	string word1;
+	string word2;
 
 	cout << "Please Enter Two Words"<<endl;
-	cin >> one >> two;
+	cin >> word1 >> word2;
 
-	if (one.length() == two.length())
+	if (word1.length() == word2.length())
 	{
-		cout << one << " They are the same length " << two << endl;
+		cout << word1 << " They are the same length " << word2 << endl;
 	}
 	
-	if (one.length() > two.length())
+	if (word1.length() > word2.length())
 	{
-		cout << one << " Is Longer Than " << two << endl;
+		cout << word1 << " Is Longer Than " << word2 << endl;
 	}
 
-	if (one.length() < two.length())
+	if (word1.length() < word2.length())
 	{
-		cout << one << " Is Shorter Than " << two << endl;
+		cout << word1 << " Is Shorter Than " << word2 << endl;
 	}
 	
 	return 0;
